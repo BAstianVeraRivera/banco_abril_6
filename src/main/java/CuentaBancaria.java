@@ -38,4 +38,9 @@ public abstract class CuentaBancaria {
 		this.cliente=cliente;
 	}
 	public abstract String getTipo();
+
+	@Override
+	public String toString() {
+		return "Numero de cuenta: "+this.getNroCuenta() + "\n" + " Fecha apertura: " + this.getFechaApertura()+ "\n" + " Saldo: " + this.getSaldo()+ "\n";
+	}
 }

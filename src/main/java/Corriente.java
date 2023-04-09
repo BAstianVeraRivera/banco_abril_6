@@ -14,6 +14,6 @@ public class Corriente extends CuentaBancaria {
 		this.lineaSobregiro = lineaSobregiro;
 	}
 	public String getTipo() {
-		return "Medico";
+		return "Corriente";
 	}
 }

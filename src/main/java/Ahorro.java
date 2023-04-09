@@ -14,6 +14,6 @@ public class Ahorro extends CuentaBancaria {
 		this.reajuste = reajuste;
 	}
 	public String getTipo() {
-		return "Cuenta ahorro";
+		return "Ahorro";
 	}
 }

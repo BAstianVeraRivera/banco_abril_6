@@ -28,4 +28,10 @@ public class Cliente {
 	public void asociarCuenta(CuentaBancaria cuenta){
 		this.cuentas.add(cuenta);
 	}
+	public void agregarCuenta(CuentaBancaria cuenta) {
+		this.cuentas.add(cuenta);
+	}
+	public String toString() {
+		return "Nombre: "+this.getNombre() + "\n" + " Rut: " + this.getRut()+ "\n";
+	}
 }
